@@ -1,3 +1,11 @@
+// 16. replace() replaces the string with new values ,The replace() method replaces only the first match
+// let text="Hello World"
+// let text2=text.replace("Hello","hi")
+// console.log(text2);
+
+
+
+
 // 17.replaceall()
 // let text="Hello World Hello"
 // let text2=text.replaceAll(/Hello/g,"hi")
