@@ -2,4 +2,4 @@
 
 // let text="Hello World"
 // let text2 =text.at(6)
-// console.log(text2);
+// console.log(text2); 
