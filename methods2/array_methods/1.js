@@ -140,3 +140,7 @@ The every() method does not change the original array
 // array.from()
 // let students= ["ABCDEF"]
 // console.log(Array.from(students));
+
+
+//
+//foreach
