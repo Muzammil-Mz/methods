@@ -229,4 +229,11 @@ The every() method does not change the original array
 
 
 const numb=[25,9,99,1000,100,0,65] //
-console.log(numb.reverse);
+// for(let x=numb.length;x>=0;x--){
+//     console.log(x);
+// }
+console.log(numb.reverse());
+
+
+
+//foreach
