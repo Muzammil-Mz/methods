@@ -186,7 +186,39 @@ The every() method does not change the original array
 
 
 //pop
-let myArr = [1, 6, 3, 4, 5,6, 6];
-console.log(myArr.pop());
+// let myArr = [1, 6, 3, 4, 5,6, 6];
+// console.log(myArr.pop());
 
-console.log(myArr);
+// console.log(myArr);
+
+
+
+//shift removes 1 element from start
+// let myArr = [1, 6, 3, 4, 5,6, 6];
+// console.log(myArr.shift());
+// console.log(myArr);
+
+
+//unshift
+// let myArr = [1, 6, 3, 4, 5,6, 6];
+// console.log(myArr.unshift(1));
+// console.log(myArr);
+
+//sort
+// let myArr = [1, 6, 3, 4, 5,6, 6];
+// console.log(myArr.sort());
+// console.log(myArr);
+
+
+//sort
+// let name=["juanid","anas","faraz","kishore"]
+// console.log(name.sort());
+
+
+
+// let name=["juanid","anas","faraz","kishore"]
+// console.log(name.re);
+
+
+// const numb=[25,9,99,1000,100,0,65]
+// console.log(numb.sort());
