@@ -210,15 +210,16 @@ The every() method does not change the original array
 // console.log(myArr);
 
 
-//sort
-// let name=["juanid","anas","faraz","kishore"]
-// console.log(name.sort());
-
 
 
 // let name=["juanid","anas","faraz","kishore"]
 // console.log(name.re);
 
+//sort onlu for atrings
+// let name=["juanid","anas","faraz","kishore"]
+// console.log(name.sort());
 
-// const numb=[25,9,99,1000,100,0,65]
-// console.log(numb.sort());
+
+
+const numb=[25,9,99,1000,100,0,65] //
+console.log(numb.sort((a,b)=>a-b));
