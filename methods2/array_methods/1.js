@@ -220,6 +220,13 @@ The every() method does not change the original array
 // console.log(name.sort());
 
 
+// const numb=[25,9,99,1000,100,0,65] //
+// console.log(numb.sort((a,b)=>a-b));
+
+
+// let names=["juanid","anas","faraz","kishore"]
+// console.log(names.reverse);
+
 
 const numb=[25,9,99,1000,100,0,65] //
-console.log(numb.sort((a,b)=>a-b));
+console.log(numb.reverse);
