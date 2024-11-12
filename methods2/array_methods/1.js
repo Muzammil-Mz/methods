@@ -123,9 +123,21 @@ The every() method does not change the original array
 // console.log(result);
 
 
-// The flat() method concatenates sub-array elements.
-// let age = [[22, 55], [88, 77], [10,19]]
-// console.log(age.flat());
+// The flat() method concatenates sub-array elements. removes adjacent not nested
+// let age = [[22, [[55]], [[88,], [77]], [10],19],[]]
+// console.log(age.flat(3));
+// console.log(age.flat(3)) //removes only 3 brackets
+// console.log(age.flat(Infinity)); //removes all the array brakets
+
+
+
+
+// includes checks for specific elemnts 
+// let fruits=["banana","apple","jack","dragon"]
+// console.log(fruits.includes("10"));
+
+
+
 
 
 // flatmap()
@@ -137,10 +149,44 @@ The every() method does not change the original array
 // forEach() 
 
 
-// array.from()
-// let students= ["ABCDEF"]
+// array.from() accepts only string converts them to string 
+// let students= 'abcdef'
 // console.log(Array.from(students));
 
 
-//
-//foreach
+
+//indexOf and lastindexof finds index from 
+// const myArr = [1, 6, 3, 4, 5,6, 6];
+// console.log(myArr.lastIndexOf(6)); //6
+// console.log(myArr.indexOf(3)); //2
+
+
+//isarray
+// const myArr = "1, 2, 3, 4, 5, 6";
+// console.log(Array.isArray(myArr));//false
+
+
+
+//join method joins all elements pf an array into a string with optional seperator
+// const colors=["red","black","green","blude"]
+// const colorsrt=colors.join('💋')
+// console.log(colorsrt);
+
+// let name="Hello World!"
+// console.log(name.length);
+
+// const myArr = ["Hello World!"];
+// console.log(myArr.length);
+
+
+//push
+// let myArr = [1, 6, 3, 4, 5,6, 6];
+// console.log(myArr.push(55));
+// console.log(myArr);
+
+
+//pop
+let myArr = [1, 6, 3, 4, 5,6, 6];
+console.log(myArr.pop());
+
+console.log(myArr);
